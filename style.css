@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    display: block;
+}
+
+/* Header */
+header {
+    align-items: center;
+    display: flex;
+    color:white;
+    font-size: 50px;
+    
+    background-color: #2B0000;
+    flex-direction: column;
+    height: 35vh;
+    position: relative;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Container */
+article {
+    background-color: #7c676a;
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#image{
+    float: left;
+    height: 65vh;
+    width: 100%;
+}
+
+#imgCN{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 15%;
+}
+
+#container{
+    float: right;
+    background-color: #7c676a;
+    height: 65vh;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jokes{
+    display: block;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 15%;
+    
+}
+
+#button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: #353d42;
+    background-image: -webkit-linear-gradient(top, #353d42, #784242);
+    background-image: -moz-linear-gradient(top, #353d42, #784242);
+    background-image: -ms-linear-gradient(top, #353d42, #784242);
+    background-image: -o-linear-gradient(top, #353d42, #784242);
+    background-image: linear-gradient(to bottom, #353d42, #784242);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+  }
+  
+#button:hover{
+    background: #184730;
+    background-image: -webkit-linear-gradient(top, #184730, #636336);
+    background-image: -moz-linear-gradient(top, #184730, #636336);
+    background-image: -ms-linear-gradient(top, #184730, #636336);
+    background-image: -o-linear-gradient(top, #184730, #636336);
+    background-image: linear-gradient(to bottom, #184730, #636336);
+    text-decoration: none;
+  }
+
+/* Footer */
+footer {
+    background-color: #2B0000;
+    bottom: 0;
+    color: white;
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+    position: fixed;   
+    text-align: center;
+    width: 100%;
+}
+
